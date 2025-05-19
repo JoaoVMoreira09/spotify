@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+main{
+    text-align: center;
+}
+
+.cartoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+nav li {
+    display: inline;
+}
+
+section a {
+    text-decoration: none;
+    color: black;
+}
+
+.cartao {
+    background-color: #b2f2bb;
+    padding: 8px;
+    text-align: center;
+}
+
+.cartao:hover {
+    background-color: #28e241;
+    transform: scale(1.1);
+}
+
+
+.logo {
+    height: 80px;
+}
